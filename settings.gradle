@@ -1,0 +1,8 @@
+include ':app'
+include ':lorie'
+include ':shell-loader:stub'
+include ':termux-shared'
+include ':terminal-emulator'
+include ':terminal-view'
+project(':lorie').projectDir = new File('termux-x11-src/lorie')
+project(':shell-loader:stub').projectDir = new File('termux-x11-src/shell-loader/stub')
