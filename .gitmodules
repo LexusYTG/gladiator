@@ -1,0 +1,21 @@
+[submodule "app"]
+	path = app
+	url = https://github.com/LexusYTG/gladiator-app.git
+[submodule "bootstrap"]
+	path = bootstrap
+	url = https://github.com/LexusYTG/gladiator-bootstrap.git
+[submodule "init-setup"]
+	path = init-setup
+	url = https://github.com/LexusYTG/gladiator-init-setup.git
+[submodule "terminal-emulator"]
+	path = terminal-emulator
+	url = https://github.com/LexusYTG/gladiator-terminal-emulator.git
+[submodule "terminal-view"]
+	path = terminal-view
+	url = https://github.com/LexusYTG/gladiator-terminal-view.git
+[submodule "termux-shared"]
+	path = termux-shared
+	url = https://github.com/LexusYTG/gladiator-termux-shared.git
+[submodule "termux-x11-src"]
+	path = termux-x11-src
+	url = https://github.com/LexusYTG/gladiator-termux-x11.git
