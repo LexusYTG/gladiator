@@ -19,3 +19,12 @@
 [submodule "termux-x11-src"]
 	path = termux-x11-src
 	url = https://github.com/LexusYTG/gladiator-termux-x11.git
+[submodule "spatha"]
+	path = spatha
+	url = https://github.com/LexusYTG/Spatha.git
+[submodule "scutum"]
+	path = scutum
+	url = https://github.com/LexusYTG/Scutum.git
+[submodule "sesar"]
+	path = sesar
+	url = https://github.com/LexusYTG/Sesar.git
