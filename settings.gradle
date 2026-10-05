@@ -4,5 +4,9 @@ include ':shell-loader:stub'
 include ':termux-shared'
 include ':terminal-emulator'
 include ':terminal-view'
-project(':lorie').projectDir = new File('termux-x11-src/lorie')
-project(':shell-loader:stub').projectDir = new File('termux-x11-src/shell-loader/stub')
+
+project(':lorie').projectDir = new File('embedded/termux-x11-src/lorie')
+project(':shell-loader:stub').projectDir = new File('embedded/termux-x11-src/shell-loader/stub')
+project(':termux-shared').projectDir = new File('embedded/termux-shared')
+project(':terminal-emulator').projectDir = new File('embedded/terminal-emulator')
+project(':terminal-view').projectDir = new File('embedded/terminal-view')

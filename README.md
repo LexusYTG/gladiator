@@ -1,3 +1,17 @@
+## Estructura
+
+    gladiator/
+      app/                            APK Android (gladiator-app)
+      boot/
+        gladiator-bootstrap/          bootstrap (Termux base + proot + Sesar)
+        init-setup/                   scripts de inicializacion
+      embedded/                       forks de Termux (X11, terminal, shared)
+      armatura/
+        Scutum/                       shim GLES/EGL bionic<->glibc
+        Spatha/                       shim Vulkan bionic<->glibc
+        Sesar/                        DE en C puro (Xlib + FreeType)
+        Orator/                       puente PCM PulseAudio -> stdout Android
+
 <div align="center">
 
 # GLADIATOR
@@ -102,7 +116,7 @@ El primer arranque descarga JWM, XTerm, fuentes y dependencias desde los repos d
 
 El APK se genera en `app/build/outputs/apk/debug/app-debug.apk`.
 
-El task `zipBootstrap` empaqueta el bootstrap (submodulo `bootstrap/` + share/spatha + share/sesar) en `app/src/main/assets/bootstrap-aarch64.zip`, que se embebe en el APK.
+El task `zipBootstrap` empaqueta el bootstrap (submodulo `boot/gladiator-bootstrap/` + share/spatha + share/sesar) en `app/src/main/assets/bootstrap-aarch64.zip`, que se embebe en el APK.
 
 ## Licencia
 
