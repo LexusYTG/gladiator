@@ -42,3 +42,6 @@
 	path = armatura/Lorica
 	url = https://github.com/LexusYTG/Lorica.git
 	branch = main
+[submodule "armatura/Boxbridge"]
+	path = armatura/Boxbridge
+	url = https://github.com/LexusYTG/Boxbridge.git
