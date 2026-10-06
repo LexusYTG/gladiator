@@ -28,9 +28,6 @@
 [submodule "armatura/Sesar"]
 	path = armatura/Sesar
 	url = https://github.com/LexusYTG/Sesar.git
-[submodule "armatura/Orator"]
-	path = armatura/Orator
-	url = https://github.com/LexusYTG/Orator.git
 [submodule "armatura/Lorica"]
 	path = armatura/Lorica
 	url = https://github.com/LexusYTG/Lorica.git
