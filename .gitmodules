@@ -31,3 +31,6 @@
 [submodule "armatura/Orator"]
 	path = armatura/Orator
 	url = https://github.com/LexusYTG/Orator.git
+[submodule "armatura/Lorica"]
+	path = armatura/Lorica
+	url = https://github.com/LexusYTG/Lorica.git
