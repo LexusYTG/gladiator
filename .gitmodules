@@ -1,33 +1,44 @@
 [submodule "app"]
 	path = app
 	url = https://github.com/LexusYTG/gladiator-app.git
+	branch = main
 [submodule "boot/gladiator-bootstrap"]
 	path = boot/gladiator-bootstrap
 	url = https://github.com/LexusYTG/gladiator-bootstrap.git
+	branch = main
 [submodule "boot/init-setup"]
 	path = boot/init-setup
 	url = https://github.com/LexusYTG/gladiator-init-setup.git
+	branch = main
 [submodule "embedded/terminal-emulator"]
 	path = embedded/terminal-emulator
 	url = https://github.com/LexusYTG/gladiator-terminal-emulator.git
+	branch = main
 [submodule "embedded/terminal-view"]
 	path = embedded/terminal-view
 	url = https://github.com/LexusYTG/gladiator-terminal-view.git
+	branch = main
 [submodule "embedded/termux-shared"]
 	path = embedded/termux-shared
 	url = https://github.com/LexusYTG/gladiator-termux-shared.git
+	branch = main
 [submodule "embedded/termux-x11-src"]
 	path = embedded/termux-x11-src
 	url = https://github.com/LexusYTG/gladiator-termux-x11.git
+	branch = main
 [submodule "armatura/Scutum"]
 	path = armatura/Scutum
 	url = https://github.com/LexusYTG/Scutum.git
+	branch = main
 [submodule "armatura/Spatha"]
 	path = armatura/Spatha
 	url = https://github.com/LexusYTG/Spatha.git
+	branch = main
 [submodule "armatura/Sesar"]
 	path = armatura/Sesar
 	url = https://github.com/LexusYTG/Sesar.git
+	branch = main
 [submodule "armatura/Lorica"]
 	path = armatura/Lorica
 	url = https://github.com/LexusYTG/Lorica.git
+	branch = main
