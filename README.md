@@ -124,9 +124,11 @@ The APK appears at `app/build/outputs/apk/debug/app-debug.apk`.
 
 `zipBootstrap` bundles the bootstrap (plus Spatha and Sesar files) into `app/src/main/assets/bootstrap-aarch64.zip`, which is embedded in the APK.
 
-## Legal
+## License
 
-License texts and attributions for every component are in `boot/gladiator-bootstrap/share/LICENSES/`. Start with `ATTRIBUTION.txt`.
+**GPL-3.0** for Gladiator and all its components. See `LICENSE`.
+
+License texts and attributions for third-party components are in `boot/gladiator-bootstrap/share/LICENSES/`. Start with `ATTRIBUTION.txt`.
 
 ## Credits
 
