@@ -101,14 +101,14 @@ gladiator/
 
 Gladiator itself is the APK plus its integration scripts. Everything else lives in its own repository:
 
-| Repo | What it is | License |
+| Repo | What it is |
 |---|---|---|
-| [Scutum](https://github.com/LexusYTG/Scutum) | OpenGL ES bridge to the device GPU | MIT |
-| [Spatha](https://github.com/LexusYTG/Spatha) | Vulkan bridge to the device GPU | MIT |
-| [Sesar](https://github.com/LexusYTG/Sesar) | Desktop environment in plain C | MIT |
-| [gladiator-bootstrap](https://github.com/LexusYTG/gladiator-bootstrap) | Termux base + orchestration scripts | GPL-3.0 |
-| [gladiator-app](https://github.com/LexusYTG/gladiator-app) | The APK (Java + assets) | GPL-3.0 |
-| [gladiator-init-setup](https://github.com/LexusYTG/gladiator-init-setup) | First-run setup scripts | GPL-3.0 |
+| [Scutum](https://github.com/LexusYTG/Scutum) | OpenGL ES bridge to the device GPU |
+| [Spatha](https://github.com/LexusYTG/Spatha) | Vulkan bridge to the device GPU |
+| [Sesar](https://github.com/LexusYTG/Sesar) | Desktop environment in plain C |
+| [gladiator-bootstrap](https://github.com/LexusYTG/gladiator-bootstrap) | Termux base + orchestration scripts |
+| [gladiator-app](https://github.com/LexusYTG/gladiator-app) | The APK (Java + assets) |
+| [gladiator-init-setup](https://github.com/LexusYTG/gladiator-init-setup) | First-run setup scripts |
 
 ## Building
 
@@ -124,13 +124,9 @@ The APK appears at `app/build/outputs/apk/debug/app-debug.apk`.
 
 `zipBootstrap` bundles the bootstrap (plus Spatha and Sesar files) into `app/src/main/assets/bootstrap-aarch64.zip`, which is embedded in the APK.
 
-## License
+## Legal
 
-**GPL-3.0** for Gladiator, gladiator-bootstrap, gladiator-app and gladiator-init-setup. See `LICENSE`.
-
-Scutum, Spatha and Sesar are **MIT**; see their own repositories.
-
-Termux brings its own licenses (mostly GPL-3.0); the full list is in `bootstrap/share/LICENSES/`. gl4es is MIT (Sebastien Chevalier); see `bootstrap/share/LICENSES/ATTRIBUTION.txt`.
+License texts and attributions for every component are in `boot/gladiator-bootstrap/share/LICENSES/`. Start with `ATTRIBUTION.txt`.
 
 ## Credits
 
